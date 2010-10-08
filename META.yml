@@ -1,0 +1,31 @@
+--- #YAML:1.0
+name:               Imager-Font-W32
+version:            0.78
+abstract:           Win32 font file support for Imager
+author:
+    - Tony Cook <tony@imager.perl.org>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+    Imager:               0.78
+build_requires:
+    ExtUtils::MakeMaker:  0
+    Imager:               0.78
+    Test::More:           0.47
+requires:
+    Imager:  0.78
+resources:
+    homepage:  http://imager.perl.org/
+    repository:
+        type:  svn
+        url:   http://imager.perl.org/svn/trunk/Imager/W32
+        web:   http://imager.perl.org/svnweb/public/browse/trunk/Imager/W32
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
