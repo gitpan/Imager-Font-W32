@@ -18,7 +18,11 @@
 # system
 ^\.svn/
 /\.svn/
+^\.gitignore$
 
 # editor
 ^#
 ~$
+
+# sometimes these get left by probes
+\.exe$
