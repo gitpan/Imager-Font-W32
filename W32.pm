@@ -5,7 +5,7 @@ use vars qw($VERSION @ISA);
 @ISA = qw(Imager::Font);
 
 BEGIN {
-  $VERSION = "0.79";
+  $VERSION = "0.81";
 
   eval {
     require XSLoader;
@@ -47,6 +47,8 @@ sub _draw {
 	      $input{'y'}, $input{color}, $input{size}, 
 	      $input{string}, $input{align}, $input{aa}, $input{utf8});
   }
+
+  return 1;
 }
 
 
