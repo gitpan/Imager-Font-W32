@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Imager-Font-W32
-version:            0.85
+version:            0.86
 abstract:           Win32 font file support for Imager
 author:
     - Tony Cook <tonyc@cpan.org>
