@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Imager-Font-W32
-version:            0.86
+version:            0.88
 abstract:           Win32 font file support for Imager
 author:
     - Tony Cook <tonyc@cpan.org>
@@ -8,13 +8,13 @@ license:            unknown
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
-    Imager:               0.86
+    Imager:               0.95
 build_requires:
     ExtUtils::MakeMaker:  0
-    Imager:               0.86
+    Imager:               0.95
     Test::More:           0.47
 requires:
-    Imager:    0.86
+    Imager:    0.95
     XSLoader:  0
 resources:
     bugtracker:  http://rt.cpan.org/NoAuth/Bugs.html?Dist=Imager

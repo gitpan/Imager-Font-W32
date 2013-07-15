@@ -1,3 +1,21 @@
+Imager-Font-W32 0.88
+====================
+
+ - add a missing head1 AUTHORS to the old Win32.pm
+   https://rt.cpan.org/Ticket/Display.html?id=86658
+
+Imager-Font-W32 0.87
+====================
+
+ - depend on Imager 0.95.
+
+Imager-Font-W32 0.86
+====================
+
+Released as part of a development release of Imager.
+
+ - add standard font tests
+
 Imager-Font-W32 0.85
 ====================
 
